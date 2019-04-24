@@ -1,0 +1,14 @@
+---
+layout: page
+title: Cultural_Studies
+permalink: /cultural_studies/
+paginate_path: 2
+tagline: "it's all about perception."
+---
+
+{% for kuwi in site.kuwi %}
+  <div class="kuwi">
+    <h2><a href="{{ kuwi.url }}">{{ kuwi.title }}</a></h2>
+  </div>
+{% endfor %}
+

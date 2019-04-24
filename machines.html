@@ -1,0 +1,41 @@
+---
+layout: page
+title: Geräte
+category: "elektronik"
+tagline: "unsere selbstgebaute Maschinenkramm"
+paginate_path: 3
+
+---
+
+<div class="machines">
+ {% for machine in site.machines %}
+ <div class= "machine">
+     {% if machine.image_path %}
+     <div class = "image"><img src="{{machine.image_path}}" alt="{{machine.type}}"/>
+    <div class="machine-type">{{machine.type }}
+    <font size="3" style="color:grey; font-style: italic" > {{machine.description}}</font>
+    <p></p>
+    {% endif %}
+  
+    {% if machine.video_path %}
+    <div class= "video"><video src="{{machine.video_path}}" type="video/mp4" width="740" height="416.250"    controls>
+    </video>
+    <div class="machine-type">{{machine.type }}
+    <font size="3" style="color:grey; font-style: italic" >{{machine.description}}</font>
+    <p></p>
+    {% endif %}  
+  </div>
+  
+  
+  {% endfor %}
+  </div>
+
+
+
+<!--<img src="/assets/images/machines/amplifier.jpg" />
+
+  <div class= "video"><video src="{{machine.video_path}}" alt= "{{machine.type}}" controls>
+  Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+  Dieser Film zeigt eine Demonstration des video-Elements. 
+  Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
+  </video>-->
