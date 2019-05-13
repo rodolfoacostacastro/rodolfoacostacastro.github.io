@@ -5,5 +5,9 @@ permalink: /about/
 paginate_path: 1
 categorie: "about"
 ---
-{% include image.html file="/yo/yo_planta.jpg" description="foto: Kitti Zsiga @ FutureVillage.com" %}   
+
+...hat Philosophie (Dipl.) und Kulturwissenschaft (M.A) studiert, lebt und arbeitet in Berlin als Berater für Partizipation und Globales Lernen. 
+Er ist aktiv unterwegs als Medienpädagoge und Maker
+
+{% include image.html file="/yo/yo_planta.jpg" description="foto: Kitti Zsiga" %}   @ FutureVillage.org
 

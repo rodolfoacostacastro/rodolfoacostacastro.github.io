@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Geräte
+title: Machines
 category: "elektronik"
-tagline: "unsere selbstgebaute Maschinenkramm"
+tagline: "selbstgebaute Klangobjekte"
 paginate_path: 3
 
 ---
@@ -18,7 +18,7 @@ paginate_path: 3
     {% endif %}
   
     {% if machine.video_path %}
-    <div class= "video"><video src="{{machine.video_path}}" type="video/mp4" width="740" height="416.250"    controls>
+    <div class= "video"><video src="{{machine.video_path}}" type="video/mp4" width="740" height="416.250" controls>
     </video>
     <div class="machine-type">{{machine.type }}
     <font size="3" style="color:grey; font-style: italic" >{{machine.description}}</font>
