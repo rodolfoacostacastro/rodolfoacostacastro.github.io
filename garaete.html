@@ -1,0 +1,42 @@
+---
+layout: page
+title: Geräte
+tagline: selbstgebaute Klangobjekte
+permalink: /gaerete/
+
+images:
+  - image_path: /assets/images/machines/synth_2.jpg
+    title: Op Amp Synth 
+
+
+  - image_path: /assets/images/machines/amplifier.jpg
+    title: Piezo-mic amplifier 
+
+
+  - image_path: /assets/images/machines/cassette.jpg
+    title: Arduino cassette
+
+
+  - image_path: /assets/images/machines/machines.jpg
+    title: Miscelanea
+
+
+  - image_path: /assets/images/machines/cama.jpg
+    title: Cama
+
+
+---
+
+
+
+
+<ul class="gallery">
+  {% for image in page.images %}
+     <li>
+      <a href="{{ image.link }}">
+        <img src="{{ image.image_path }}" alt="{{ image.title}}" width="32%" height="32%" />
+      </a>
+      </li>
+  {% endfor %}
+</ul>
+

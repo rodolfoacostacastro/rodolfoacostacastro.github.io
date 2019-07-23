@@ -18,7 +18,7 @@ paginate_path: 3
     {% endif %}
   
     {% if machine.video_path %}
-    <div class= "video"><video src="{{machine.video_path}}" type="video/mp4" width="740" height="416.250" controls>
+    <div class= "video"><video src="{{machine.video_path}}" type="video/mp4" width="100%" height="auto" controls>
     </video>
     <div class="machine-type">{{machine.type }}
     <font size="3" style="color:grey; font-style: italic" >{{machine.description}}</font>
@@ -30,6 +30,7 @@ paginate_path: 3
   {% endfor %}
   </div>
 
+<a href="/cart" class="addtocart" image="/assets/images/machines/synth_2.jpg" price="5.50" description="CACA">Add to cart</a>
 
 
 <!--<img src="/assets/images/machines/amplifier.jpg" />

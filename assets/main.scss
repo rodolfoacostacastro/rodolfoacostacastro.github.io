@@ -3,3 +3,30 @@
 ---
 
 @import "minima";
+
+
+ 
+ul.gallery {
+  list-style: none;  
+  padding-left: 0;
+  
+}
+ 
+ 
+ 
+li img {
+  float: left;
+  margin: 0px;
+  border: 1px solid #fff;
+  padding-left: 0;
+
+}
+ 
+li img:hover {
+  border: 0 px solid #777;
+ -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+  filter: blur(1px);
+}
+
+
+

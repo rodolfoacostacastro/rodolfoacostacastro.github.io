@@ -4,7 +4,6 @@ title: Skizze
 permalink: /skizze/
 tagline: "Humanity is overrated."
 category: "skizze"
-paginate_path: 6
 ---
 {% include image.html file="pollo.png" description="This is not a chiken" %}   
 
