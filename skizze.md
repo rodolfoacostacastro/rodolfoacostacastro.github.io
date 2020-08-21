@@ -35,8 +35,8 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 {% include youtube.html youtube_id = "SnrEVlJH8GY"  description = "Meine Oma fährt Motorrad" %}
 
-[Jekyll Now](http://github.com/barryclark/jekyll-now/)
-
+[This is not a link](futurevillage.org)
+{% include note.html content="This is not a sample note." %}
 
 
 
