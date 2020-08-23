@@ -5,7 +5,69 @@ permalink: /skizze/
 tagline: "Humanity is overrated."
 category: "skizze"
 ---
-{% include image.html file="pollo.png" description="This is not a chicken" %}   
+{% include image.html file="pollo.png" description="This is not a chicken" %}  
+---
+
+{% include p5.html 
+p5js_sketch = "
+let bubble=[];
+
+function windowResized ()  {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+function setup() {
+
+	var canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position (0,0);
+  canvas.style ('z-index', '-1');
+
+ for (let i =0; i<500; i++){
+	  let x = random (width);
+	  let y = random (height);
+	  let r = random (10,30);
+	bubble[i] = new Bubble (x,y,r);
+ }
+ 
+}
+
+function draw() {
+background(218, 160, 221);
+for (let i =0; i<bubble.length; i++){
+bubble[i].show();
+bubble[i].move();
+}
+
+
+}
+
+class Bubble {
+
+	constructor (x,y,r){
+      this.x = x;
+	  this.y = y;
+	  this.r = r;
+	}
+
+	move (){
+		this.x = this.x + random (-1,1);
+		this.y = this.y + random (-1,1);
+	 }
+	 
+	 show () {
+		 stroke (255);
+		 fill (pink.r,pink.g,pink.b);
+		 ellipse (this.x, this.y, this.r*2);
+	 }
+}
+
+var pink = {
+	r: 250,
+	g: 200,
+	b: 200
+};"
+%}
+
 
 Hola Rodolfito: Esto sí que lo puedo cambiar You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -35,7 +97,10 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 {% include youtube.html youtube_id = "SnrEVlJH8GY"  description = "Meine Oma fährt Motorrad" %}
 
+
 [This is not a link](futurevillage.org)
+
+
 {% include note.html content="This is not a sample note." %}
 
 
