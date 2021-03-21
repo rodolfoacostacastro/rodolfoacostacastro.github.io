@@ -1,0 +1,40 @@
+I"<div class="machines">
+ 
+ <div class="machine">
+     
+     <div class="image"><img src="/assets/images/machines/amplifier.jpg" alt="Amplifier" />
+    <div class="machine-type">Amplifier
+    <font size="3" style="color:grey; font-style: italic"> piezo-disc amplifier in the woods</font>
+    <p></p>
+    
+  
+      
+  </div>
+  
+  
+  
+ <div class="machine">
+     
+  
+      
+  </div>
+  
+  
+  
+ <div class="machine">
+     
+  
+    
+    <div class="video"><video src="assets/video/machines/synth_video_2.mp4" type="video/mp4" width="100%" height="auto" controls="">
+    </video>
+    <div class="machine-type">Synth
+    <font size="3" style="color:grey; font-style: italic">Synth (4 Op. Amps. und ein Transducer)</font>
+    <p></p>
+      
+  </div>
+  
+  
+  
+  </div>
+</div></div></div></div>
+:ET
