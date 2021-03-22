@@ -1,6 +1,6 @@
 ---
 layout: kuwi_layout
-title: Thermomix TM5
+title: Thermomix TM5 - Eine kulturwissenschaftliche Analyse der Digitalisierung des Kochens
 image_path: /assets/images/kuwi/tm5.jpg
 
 ---

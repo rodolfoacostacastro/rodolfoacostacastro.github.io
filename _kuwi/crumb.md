@@ -1,6 +1,6 @@
 ---
 layout: kuwi_layout
-title: Robert Crumbs Comics
+title: Robert Crumbs Comics - Zwischen Kunstmarkt und Massenproduktion
 
 image_path: /assets/images/kuwi/crumb.jpg
 

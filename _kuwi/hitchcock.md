@@ -1,6 +1,6 @@
 ---
 layout: kuwi_layout
-title: Rear Window
+title: Rear Window - Der vollkommene filmische Film
 image_path: /assets/images/kuwi/rear_window.jpg
 
 ---

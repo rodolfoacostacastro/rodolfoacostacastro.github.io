@@ -1,6 +1,6 @@
 ---
-layout: kuwi_layout
-title: Cronenbergs Fliege
+layout: page
+title: Cronenbergs Fliege - Fliege in Kunst und Kino
 image_path: /assets/images/kuwi/cronenberg.jpeg
 ---
 
@@ -9,8 +9,10 @@ Eine Filmanalyse von Cronenbergs „Die Fliege“
 </h1>
 
 <p>
-...
+{% include image.html file="kuwi/cronenberg.jpeg"  %}
 </p>
+
+
 
 <h1>Literaturverzeichnis</h1>
 

@@ -1,6 +1,6 @@
 ---
 layout: kuwi_layout
-title: Die Einsamkeit des Narziss
+title: Die Einsamkeit des Narziss - Theorien und Praktiken der Einsamkeit
 image_path: /assets/images/kuwi/narziss.jpg
 
 ---

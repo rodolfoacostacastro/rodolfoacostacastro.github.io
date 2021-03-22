@@ -47,6 +47,7 @@ markdown: kramdown
 header_pages:
 - kuwi.html
 - Objekte.html 
+- diy_labor.html
 - skizze.md
 - musik.md 
 - about.md
