@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cronenbergs Fliege - Fliege in Kunst und Kino
+title: Cronenbergs Fliege - Fliegen in Kunst und Kino
 image_path: /assets/images/kuwi/cronenberg.jpeg
 ---
 
