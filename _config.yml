@@ -30,13 +30,17 @@ instagram_username: rodolfo_acosta_castro
 facebook_username: acosta.castro.rodolfo 
 
 
-paginate: 6
+paginate: 7
 collections:
   kuwi:
     output: true 
   machines:
     output: true
   workshops:
+    output: true
+  diy_labor:
+    output: true
+  ePoetry:
     output: true
 
 # Build settings
@@ -50,6 +54,7 @@ header_pages:
 - diy_labor.html
 - skizze.md
 - musik.md 
+- ePoetry.html
 - about.md
 
 

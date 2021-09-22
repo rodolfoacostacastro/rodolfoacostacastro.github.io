@@ -1,77 +1,33 @@
-I"ß<p><img src="/assets/images/pollo.png" alt="This is not a chicken" /><br />
+I"„<p><img src="/assets/images/pollo.png" alt="This is not a chicken" /><br />
 <span class="caption" style="color:grey; font-style: italic">This is not a chicken</span><br />
 â€”</p>
 
-<script src=" /assets/p5_libraries/p5.js"></script>
+<html>
+    <head>
 
-<script src="/assets/p5_libraries/p5.dom.js"></script>
-
-<script src="/assets/p5_libraries/p5.sound.js"></script>
-
-<script> 
-let bubble=[];
-
-function windowResized ()  {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
-function setup() {
-
-	var canvas = createCanvas(windowWidth, windowHeight);
-  canvas.position (0,0);
-  canvas.style ('z-index', '-1');
-
- for (let i =0; i<500; i++){
-	  let x = random (width);
-	  let y = random (height);
-	  let r = random (10,30);
-	bubble[i] = new Bubble (x,y,r);
- }
- 
-}
-
-function draw() {
-background(218, 160, 221);
-for (let i =0; i<bubble.length; i++){
-bubble[i].show();
-bubble[i].move();
-}
+    <script language="javascript" type="text/javascript" src=" /assets/p5_libraries/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/p5_libraries/p5.dom.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/p5_libraries/p5.sound.js"></script>
+</head>
 
 
-}
+</html>
 
-class Bubble {
-
-	constructor (x,y,r){
-      this.x = x;
-	  this.y = y;
-	  this.r = r;
-	}
-
-	move (){
-		this.x = this.x + random (-1,1);
-		this.y = this.y + random (-1,1);
-	 }
-	 
-	 show () {
-		 stroke (255);
-		 fill (pink.r,pink.g,pink.b);
-		 ellipse (this.x, this.y, this.r*2);
-	 }
-}
-
-var pink = {
-	r: 250,
-	g: 200,
-	b: 200
-};</script>
+<script src="/assets/js/p5_bubbles_sketch.js"> </script>
 
 <p>Hola Rodolfito: Esto sÃ­ que lo puedo cambiar Youâ€™ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
-<p><img src="/assets/images/pollo.png" alt="Mi pollo " />, <img src="/assets/images/pollo.png" alt="Mi pollo " />, <img src="/assets/images/pollo.png" alt="Mi pollo " />
-<img src="/assets/images/pollo.png" alt="Mi pollo " />, <img src="/assets/images/pollo.png" alt="Mi pollo " />, <img src="/assets/images/pollo.png" alt="Mi pollo " /></p>
+<p> 
+<img src="/assets/images/pollo.png" alt="" />  
+<span class="caption" style="color:grey; font-style: italic"></span> <img src="/assets/images/pollo.png" alt="" />  
+<span class="caption" style="color:grey; font-style: italic"></span> <img src="/assets/images/pollo.png" alt="" />  
+<span class="caption" style="color:grey; font-style: italic"></span> </p>
+
+<p> 
+![Mi pollo](/assets/images/pollo.png), ![Mi pollo](/assets/images/pollo.png), ![Mi pollo](/assets/images/pollo.png)
+![Mi pollo](/assets/images/pollo.png), ![Mi pollo](/assets/images/pollo.png), ![Mi pollo](/assets/images/pollo.png) </p>
 
 <p>Jekyll also offers powerful support for code snippets:</p>
 
