@@ -6,11 +6,13 @@ paginate_path: 6
 categorie: "audio"
 tagline: "- Auswahl"
 ---
+<!---
 <audio controls autoplay>
 
   <source src="/assets/audio/prueba.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
-</audio>
+</audio> 
+ --->
 
 <br>
 
