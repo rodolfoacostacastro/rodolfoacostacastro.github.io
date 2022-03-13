@@ -9,6 +9,7 @@ categorie: "about"
 Er ist aktiv unterwegs als Medienpädagoge und Maker :)
 
 
-{% include image.html file="/yo/yo_planta.jpeg" description="foto: Kitti Zsiga" %}   @ [Futurevillage.org](http://FutureVillage.org/) 
+{% include image.html file="/yo/yo_planta.jpeg" description="foto: Kitti Zsiga" %}  
+  @ [Futurevillage.org](http://FutureVillage.org/) 
 
                                                        

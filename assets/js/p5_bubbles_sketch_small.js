@@ -1,15 +1,16 @@
 let bubble=[];
 
-function windowResized ()  {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
+  
 function setup() {
 
-  var canvas = createCanvas(windowWidth, windowHeight);
-  canvas.position (0,0);
+  var canvas = createCanvas(800, 350);
+  canvas.position (320,200);
   canvas.style ('z-index', '-1');
-  
+
+  /*let div = createDiv('this is some text');
+  div.style('font-size', '16px');
+  div.position(320, 600);*/
+
  for (let i =0; i<500; i++){
 	  let x = random (width);
 	  let y = random (height);
@@ -28,16 +29,16 @@ for (let i =0; i<bubble.length; i++){
 bubble[i].show();
 bubble[i].move();
 
-/*textSize(32);
-fill(0, 102, 53, 51);
-text('this', 700, 200);
-//fill(0, 102, 153);
-fill(0, 102, 153);
-text('is not', 700, 300);
-fill(0, 255, 153);
-text('a chicken', 700, 400);*/
+textSize(32);
+//fill(0, 255, 153);
+fill(90, 90, 20);
+text('this', 330, 80);
+fill(90, 90, 20);
+text('is not', 330, 130);
+fill(90, 90, 20);
+text('a chicken', 330, 180);
 
- }
+}
 }
 
 

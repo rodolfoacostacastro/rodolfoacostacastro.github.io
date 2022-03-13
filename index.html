@@ -2,14 +2,13 @@
 layout: home
 ---
 
-
-  
   
   {% if paginator.total_pages > 1 %}
     <nav class="pagination">
       {% if paginator.previous_page %}
         <a class="paginationLink" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
       {% endif %}
+
 
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
