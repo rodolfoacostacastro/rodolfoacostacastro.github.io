@@ -49,13 +49,14 @@ markdown: kramdown
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-- kuwi.html
+- blog.md
 - Objekte.html 
 - diy_labor.html
 - skizze.md
 - audio.md 
-- ePoetry.html
+- kuwi.html
 - about.md
+
 
 
 

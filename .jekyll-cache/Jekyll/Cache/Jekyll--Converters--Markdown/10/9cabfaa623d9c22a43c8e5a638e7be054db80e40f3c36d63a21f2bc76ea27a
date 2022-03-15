@@ -1,14 +1,25 @@
+I"N<h1> 15.03.2021</h1>
+<h2>aqui es donde les voy a contar como esta la cosa sabrosa </h2>
 
+<html>
+    <head>
+    <script language="javascript" type="text/javascript" src=" /assets/p5_libraries/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/p5_libraries/p5.dom.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/p5_libraries/p5.sound.js"></script>
+</head>
+
+
+</html>
 
 <canvas id="c" width="600" height="400"></canvas>
- 
-<script  type="importmap">{
+
+<script type="importmap">{
 	"imports": {
 		"three": "https://threejs.org/build/three.module.js"
 	}
-}</script><!-- Remove this when import maps will be widely supported -->
-<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
-
+}</script>
+<!-- Remove this when import maps will be widely supported -->
+<script async="" src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
 
 <!-- <script language="javascript" type="text/javascript" src="sketch.js"></script> -->
 <script type="module">
@@ -22,7 +33,7 @@ function main() {
 
   var can = document.querySelector('canvas');
   can.style.position = 'absolute';
-  can.style.top = "200px";
+  can.style.top = "150px";
   can.style.left = "200px";
 
   const fov = 75;
@@ -44,7 +55,7 @@ function main() {
 renderer.setClearColor( 0xffffff, 0);
 
   const material = new THREE.MeshBasicMaterial({
-    map: loader.load('https://rodolfoacostacastro.github.io/assets/images/polloCubo.png'),
+    map: loader.load('https://rodolfoacostacastro.github.io/assets/images/pollo.png'),
   });
   const cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
@@ -93,3 +104,5 @@ main();
 
 
 </script>
+<p>en cuanto al pollo en cuestion</p>
+:ET

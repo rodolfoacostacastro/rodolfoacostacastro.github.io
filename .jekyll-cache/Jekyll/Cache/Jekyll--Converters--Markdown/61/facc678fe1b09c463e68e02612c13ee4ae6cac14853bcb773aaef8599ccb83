@@ -1,0 +1,157 @@
+I"›<h1> 15.03.2021</h1>
+<h2>aqui es donde les voy a contar como esta la cosa sabrosa </h2>
+
+<html>
+    <head>
+    <script language="javascript" type="text/javascript" src=" /assets/p5_libraries/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/p5_libraries/p5.dom.js"></script>
+    <script language="javascript" type="text/javascript" src="/assets/p5_libraries/p5.sound.js"></script>
+</head>
+
+
+</html>
+
+<canvas id="c" width="600" height="400"></canvas>
+
+<script type="importmap">{
+	"imports": {
+		"three": "https://threejs.org/build/three.module.js"
+	}
+}</script>
+<!-- Remove this when import maps will be widely supported -->
+<script async="" src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+<!-- <script language="javascript" type="text/javascript" src="sketch.js"></script> -->
+<script type="module">
+
+
+import * as THREE from 'three';
+
+function main() {
+  const canvas = document.querySelector('#c');
+  const renderer = new THREE.WebGLRenderer({canvas});
+
+  var can = document.querySelector('canvas');
+  can.style.position = 'absolute';
+  can.style.top = "150px";
+  can.style.left = "200px";
+
+  const fov = 75;
+  const aspect = 2;  // the canvas default
+  const near = 0.1;
+  const far = 5;
+  const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+  camera.position.z = 2;
+
+  const scene = new THREE.Scene();
+
+  const boxWidth = 1;
+  const boxHeight = 1;
+  const boxDepth = 1;
+  const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
+
+  const cubes = [];  // just an array we can use to rotate the cubes
+  const loader = new THREE.TextureLoader();
+renderer.setClearColor( 0xffffff, 0);
+
+  const material = new THREE.MeshBasicMaterial({
+    map: loader.load('https://rodolfoacostacastro.github.io/assets/images/pollo.png'),
+  });
+  const cube = new THREE.Mesh(geometry, material);
+  scene.add(cube);
+  cubes.push(cube);  // add to our list of cubes to rotate
+
+  function resizeRendererToDisplaySize(renderer) {
+    const canvas = renderer.domElement;
+    const width = canvas.clientWidth;
+    const height = canvas.clientHeight;
+    const needResize = canvas.width !== width || canvas.height !== height;
+    if (needResize) {
+      renderer.setSize(width, height, false);
+    }
+    return needResize;
+  }
+
+  function render(time) {
+    time *= 0.001;
+
+    if (resizeRendererToDisplaySize(renderer)) {
+      const canvas = renderer.domElement;
+      camera.aspect = canvas.clientWidth / canvas.clientHeight;
+      camera.updateProjectionMatrix();
+    }
+
+    cubes.forEach((cube, ndx) => {
+      const speed = .2 + ndx * .1;
+      const rot = time * speed;
+      cube.rotation.x = rot;
+      cube.rotation.y = rot;
+    });
+
+    renderer.render(scene, camera);
+
+    requestAnimationFrame(render);
+  }
+
+  requestAnimationFrame(render);
+}
+
+main();
+
+
+
+
+
+
+</script>
+<p>en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion</p>
+
+<h1>Text Input from User</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;textarea id="blueberry"&gt;Tell me about why humanity is overrated.&lt;/textarea&gt;
+&lt;p&gt;&lt;button id="submit"&gt;submit&lt;/button&gt;&lt;/p&gt;
+
+&lt;article class="post"&gt;
+</code></pre></div></div>
+
+<header class="post-header">
+  <!--  <h1 class="post-title">Audio</h1> -->
+  </header>
+
+<div class="tagline">
+ <span class="page-title"> Audio</span> 
+ <span class="page-tagline">- Auswahl</span>
+ <p> &lt;/br&gt;</p>
+ 
+
+ <div />
+ 
+
+
+
+  <div class="post-content">
+    <!---
+<audio controls autoplay>
+
+  <source src="/assets/audio/prueba.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+ --->
+
+<p><br /></p>
+
+<div class="spacing youtube">
+  <iframe width="708" height="416.250" src="https://www.youtube.com/embed/dwE4Jwk_zeI" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<p><span class="caption" style="color:grey; font-style: italic">Alvin Lucier: Music on a Long Thin Wire (1980)</span></p>
+
+
+  </div>
+
+&lt;/article&gt;
+
+
+
+  
+<p id="output"></p>
+</div>
+:ET
