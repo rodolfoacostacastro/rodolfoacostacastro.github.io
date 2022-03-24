@@ -3,19 +3,28 @@ layout: blog
 title: EdibleInterfaces
 permalink: /edibleInterfaces/
 ---
-<h1> 14.03.2022</h1>
+# Semana 1
+- ## Piezos y comida 
+  - conversación con Hannah Perner-Wilson
 
-<h1> 15.03.2022</h1>
-<h2>aqui es donde les voy a contar como esta la cosa sabrosa </h2>
+- ## Documentación
+  - JavaScript + HTML + CSS/Markdown 
 
-{% include cuboDePollo.html 
-%} 
+- ## OSC_&&_ESP32
+  
+  - Esp32-S2 
 
-en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion en cuanto al pollo en cuestion 
+  - OSC
+- ## MPU5060 
+- ## Mycelial Work Group
+  -  *@ Maerz Musik Festival Mit Daniela Bershan, Aubrey Birch, Nahla Koch, Red Vaughan Tremmel* 
+  
+# Semana 2
+- ## TouchDesigner
+- ## PixelSpirit Elements Deck
+- ## "Eat me, Ditch me" 
+   - Ioana Vereme Moser @ Errant Sound
+  
+# Semana 3
 
-
-<h1> 16.03.2022</h1>
-
-<h1> 17.03.2022</h1>
-
-<h1> 18.03.2022</h1>
+# Semana 4
