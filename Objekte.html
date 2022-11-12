@@ -1,0 +1,50 @@
+---
+layout: page
+title: Geräte
+tagline: selbstgebaute Klangobjekte
+permalink: /objekte/
+images:
+
+- image_path: /assets/images/machines/klangobjekte_zusammen.jpg
+- image_path: /assets/images/machines/klangobjekt_gebaude.jpg
+- image_path: /assets/images/machines/klangobjekt_mp3.jpg
+- image_path: /assets/images/machines/klangobjekt_evelope2.jpg
+- image_path: /assets/images/machines/tumor_2.jpg
+- image_path: /assets/images/machines/cassette_2.jpg
+- image_path: /assets/images/machines/pilzstation_2.jpg
+- image_path: /assets/images/machines/synth_2.jpg
+  title: Op Amp Synth 
+- image_path: /assets/images/machines/machines.jpg
+  title: Miscelanea
+- image_path: /assets/images/machines/amplifier.jpg
+  title: Piezo-mic amplifier
+- image_path: /assets/images/machines/time_machine2.png
+- image_path: /assets/images/machines/soli.jpg
+
+---
+
+<ul class="gallery">
+  {% for image in page.images %}
+     <li>
+      <a href="{{ image.link }}">
+        <img src="{{ image.image_path }}" alt="{{ image.title}}" width="33%" height="160" />
+      </a>
+      </li>
+  {% endfor %}
+    
+     <li>
+
+{% include youtube.html youtube_id = "qEHy6If8qaQ"  description = "»The Love Test Machine« Transit, Transmediale, CTM Vorspiele, Berlin.
+Collaboration with the UIX Designer Esther Rizo." %}
+      </li>
+<li>
+
+{% include image_small.html file="machines/pilzstation_neu.jpg" %}  
+{% include image_small.html file="machines/pilzstation_neu2.jpg" %}  
+
+</li>
+
+
+
+
+</ul>

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+  <!--  <h1 class="post-title">{{ page.title | escape }}</h1> -->
+  </header>
+
+
+
+ {%if page.tagline%}
+ <div class = "tagline">
+ <span class="page-title"> {{page.title}}</span> 
+ <span class= "page-tagline">{{page.tagline}}</span>
+ <p> </br></p>
+ 
+
+ <div/>
+ {% endif%}
+
+
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+
+

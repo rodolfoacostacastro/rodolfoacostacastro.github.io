@@ -1,0 +1,393 @@
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:595.0pt 842.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Normale Tabelle";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]-->
+</head>
+
+<body bgcolor=white lang=DE style='tab-interval:35.4pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='mso-pagination:none;tab-stops:28.0pt 2.0cm 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 252.0pt 280.0pt 308.0pt 336.0pt;
+mso-layout-grid-align:none;text-autospace:none'><span style='font-family:Wingdings;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+style='font-family:"Times New Roman"'> Dahlmann, Albert-Friedrich, <i>Vom
+Kochtopf zur High-Tech. Entwicklung der deutschen Großkochgeräte-Industrie</i><span
+class=GramE>, ,</span> München, Wien, 1992.<span
+style='mso-spacerun:yes'>&nbsp; </span>TU ZENTRALBIBLIOTHEK / Bestellen aus der
+Magazin/ 8Qo3103 auch zu finden in Deutsches Technikmuseum: Signatur: L/2/94/5694
+H 20.5/20 Mediennummer TEMP40684<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><span style='font-family:Wingdings;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+style='font-family:"Times New Roman"'>Hauswirtschaft und Wissenschaft, 1983, H.
+1. Artikel in der S. 27-36: Horst <span class=SpellE>Pichert</span>, Elektronik
+im Haushalt, Möglichkeiten und Grenzen. TU Zentralbibliothek 2. Etage,
+Zeitschriftenbereich<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><span style='font-family:"Times New Roman"'>ZA2785
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-pagination:none;tab-stops:2.0cm;mso-layout-grid-align:
+none;text-autospace:none'><span style='font-family:Wingdings;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+style='font-family:"Times New Roman"'> Parr, Joy, <span class=SpellE><i>Domestic</i></span><i>
+<span class=SpellE>goods</span>. The <span class=SpellE>material</span>, <span
+class=SpellE>the</span> <span class=SpellE>moral</span> <span class=SpellE>and</span>
+<span class=SpellE>the</span> <span class=SpellE>economic</span> in <span
+class=SpellE>the</span> <span class=SpellE>postwar</span> <span class=SpellE>years</span></i>,
+University <span class=SpellE>of</span> Toronto Press, Toronto, <span
+class=GramE>1996,<span style='mso-spacerun:yes'>&nbsp; </span>TU</span>
+ZENTRALBIBLIOTHEK / 3. Etage / Signatur: NW310071<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:14.2pt;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><span style='font-family:Wingdings;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+style='font-family:"Times New Roman"'>Schwartz-<span class=SpellE>Cowan</span>,
+Ruth, More <span class=SpellE>work</span> <span class=SpellE>for</span> <span
+class=SpellE>mother</span>. The <span class=SpellE>ironies</span> <span
+class=SpellE>of</span> <span class=SpellE>household</span> <span class=SpellE>technology</span>
+<span class=SpellE>from</span> <span class=SpellE>the</span> open <span
+class=SpellE>heart</span> <span class=SpellE>to</span> <span class=SpellE>the</span>
+<span class=SpellE>microwave</span>, Basic Books, New York, 1983, TU
+Zentralbibliothek 2. Etage<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Wingdings'>à</span></span><span style='font-family:
+"Times New Roman"'> <span class=SpellE>Malmborg</span>, Anders (1985): <span
+class=SpellE>Some</span> <span class=SpellE>aspects</span> on <span
+class=SpellE>Institutional</span> <span class=SpellE>dishwashing</span> <span
+class=SpellE>machines</span>, <span class=SpellE>full</span> <span
+class=SpellE>scale</span> <span class=SpellE>and</span> <span class=SpellE>model</span>
+<span class=SpellE>experiments</span>. TU-Zentralbibliothek <span class=GramE>Magazin<span
+style='mso-spacerun:yes'>&nbsp; </span>8</span>Qr1123 <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'>&nbsp;</span></span><span style='font-family:Wingdings;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+style='font-family:"Times New Roman"'>Wirksamkeit des maschinellen
+Geschirrspülens gegenüber Stärkerückständen. TU-Zentralbibliothek Magazin
+8Va8582<span style='mso-spacerun:yes'>&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Wingdings'>à</span></span><span style='font-family:
+"Times New Roman"'> Wichmann, Hans: Möbel und Geräte der Wohnung unserer Zeit:
+internationale Ausstellung (1968); Münchner Stadtmuseum 25. Okt. 1968 bis 12.
+Jan. 1969. Münchner Stadtmuseum <span class=SpellE>Udk</span> <span
+class=SpellE>Univesitätsbibliothek</span>// Design PP 1415/ EA 4970 <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Wingdings'>à</span></span><span style='font-family:
+"Times New Roman"'> <span class=SpellE>Witch</span>, Kurt (1981): Elektrische
+Hausgeräte: Technik und Anwendung. <span class=SpellE>UdK</span> Universitätsbibliothek
+PT 7000 /EA 1494<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Wingdings'>à</span></span><span style='font-family:
+"Times New Roman"'> Simon, <span class=GramE>Michaela(</span>1990): Die Nacht
+des Werbespots. (Southern Electronic Geschirrspüler) <span class=SpellE>UdK</span>
+Universitätsbibliothek. Mediathek WM <span class=GramE>0014<span
+style='mso-spacerun:yes'>&nbsp; </span>(</span>????)<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Wingdings'>à</span></span><span style='font-family:
+"Times New Roman"'> Schmitt, Thomas (2012) Freistil oder Was die Waschmaschine
+träumt. <span class=SpellE>UdK</span> Universitätsbibliothek/ Mediathek SL
+0015. <span style='mso-spacerun:yes'>&nbsp;&nbsp;</span></span><span
+style='font-size:10.0pt;font-family:"Times New Roman"'>&gt;&gt;Fernsehmitschnitt:
+Arte 28.05.2012 <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:0cm;mso-add-space:auto;
+tab-stops:2.0cm'><span style='font-size:10.0pt;font-family:"Times New Roman"'>&quot;Weiß
+ist das Symbol für Reinheit, äußerliche wie innerliche, und somit für das Gute.
+&quot;Freistil oder Was die Waschmaschine träumt&quot; unternimmt eine
+unterhaltsame Reise durch den faszinierenden Weiß-Kosmos anhand der
+vielschichtigen kulturgeschichtlichen Zeugnisse, welche die menschliche
+Auseinandersetzung mit der Farbe Weiß hervorgebracht hat. &quot; [arte.tv/de]
+&lt;&lt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><span style='font-family:"Times New Roman"'>ZE74000
+7<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-pagination:none;tab-stops:2.0cm;mso-layout-grid-align:
+none;text-autospace:none'><span style='font-family:Wingdings;mso-ascii-font-family:
+Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><a
+href="http://primo.kobv.de/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;fn=search&amp;doc=udk_aleph000412222&amp;indx=1&amp;recIds=udk_aleph000412222&amp;recIdxs=0&amp;elementId=0&amp;renderMode=poppedOut&amp;displayMode=full&amp;frbrVersion=&amp;dscnt=0&amp;scp.scps=scope%3A%28udk_spitta%29%2Cscope%3A%28MAN_NL_ALL%29%2Cscope%3A%28UDK%29&amp;tab=default_tab&amp;vl(263765855UI0)=any&amp;dstmp=1456160594187&amp;vl(freeText0)=counter%20space%20design%20and%20the%20modern%20kitchen&amp;vid=UDK&amp;mode=Basic&amp;vl(536593512UI1)=all_items"><b><span
+style='font-family:"Times New Roman";color:#262626;text-decoration:none;
+text-underline:none'>Counter <span class=SpellE><span class=GramE>space</span></span><span
+class=GramE> :</span> design <span class=SpellE>and</span> <span class=SpellE>the</span>
+modern <span class=SpellE>kitchen</span> ; [in <span class=SpellE>conjunction</span>
+<span class=SpellE>with</span> <span class=SpellE>the</span> <span
+class=SpellE>exhibition</span> &quot;Counter <span class=SpellE>space</span>.
+Design <span class=SpellE>and</span> <span class=SpellE>the</span> modern <span
+class=SpellE>kitchen</span>&quot;, Museum <span class=SpellE>of</span> Modern
+Art, New York, 15.9.2010 - 2.5.2011]</span></b></a><b><span style='font-family:
+"Times New Roman";color:#262626'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-pagination:none;tab-stops:2.0cm;mso-layout-grid-align:
+none;text-autospace:none'><span style='font-family:"Times New Roman";
+color:#262626'>Juliet <span class=SpellE><span class=GramE>Kinchin</span></span><span
+class=GramE> ;</span> Aidan O'Connor ; Museum <span class=SpellE>of</span>
+Modern Art, New York, NY ; Exhibition Counter Space: Design <span class=SpellE>and</span>
+<span class=SpellE>the</span> Modern <span class=SpellE>Kitchen</span>, 2010 -
+2011, New York, NY<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><span class=SpellE><span
+style='font-family:"Times New Roman";color:#262626'>UdK</span></span><span
+style='font-family:"Times New Roman";color:#262626'> Universitätsbibliothek:
+Design PT 7000 / EB1946<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><span class=SpellE><span
+style='font-family:"Times New Roman"'>Bohmert</span></span><span
+style='font-family:"Times New Roman"'>, Friedrich, Hauptsache <span
+class=GramE>sauber?.</span> Vom Waschen und Reinigen im Wandel der Zeit, <span
+class=SpellE>Stürtz</span>, Würzburg, 1988, TU Zentralbibliothek 3. Etage
+LB66000 5<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:2.0cm'><span style='font-family:"Times New Roman"'>Eva-Maria
+Scheid (1985): Die Küche - die Fabrik der Hausfrau<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
