@@ -8,7 +8,11 @@ category: "skizze"
  
 {% include p5js_libs.html 
 %}
+
+<!--- <script src="{{ site.baseurl }}{% link assets/js/p5_pinkNoise.js %}"> </script> -->
+
 <script src="{{ site.baseurl }}{% link assets/js/p5_bubbles_sketch_small.js %}"> </script> 
+
 {% include cuboDePollo.html 
 %}
 <br><br><br><br><br><br><br><br><br><br><br><br>
