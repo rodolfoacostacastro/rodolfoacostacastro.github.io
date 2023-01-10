@@ -27,9 +27,10 @@ function draw() {
 
   shader(program);
   background(0);
-	program.setUniform('u_resolution',[windowWidth,windowHeight]);
+	program.setUniform('u_resolution',[width,height]);
 	program.setUniform('u_time',millis()/1000.0);
-  rect(0,0,windowWidth,windowHeight);
+  rect(0,0,width,height);
+
  // altura = windowHeight;
 
 
