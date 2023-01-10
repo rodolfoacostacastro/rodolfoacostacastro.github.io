@@ -4,11 +4,11 @@
 
 var program;
 var canvas;
-//var altura;
-
+var  scrollHeight = 1000;
+ 
 function setup() {
  pixelDensity(1);
- canvas =  createCanvas(windowWidth, windowHeight,WEBGL);
+ canvas =  createCanvas(windowWidth, windowHeight+scrollHeight,WEBGL);
 
  
   //gl=this.canvas.getContext('webgl');
@@ -36,6 +36,14 @@ function draw() {
 }
 
 
+
+function mouseWheel(event) {
+//  print(event.delta);
+  //move the square according to the vertical scroll amount
+  offsetY += event.delta;
+  //uncomment to block page scrolling
+  //return false;
+}
 
 
 function windowResized(){

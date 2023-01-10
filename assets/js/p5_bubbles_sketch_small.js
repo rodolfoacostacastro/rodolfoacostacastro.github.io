@@ -1,10 +1,12 @@
 let bubble=[];
-
+function windowResized(){
+	resizeCanvas(windowWidth, windowHeight);
+  }
   
 function setup() {
 
   var canvas = createCanvas(800, 350);
-  canvas.position (320,200);
+  canvas.position (windowWidth/4,windowHeight/4);
   canvas.style ('z-index', '-1');
 
   /*let div = createDiv('this is some text');
