@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Geräte
-tagline: selbstgebaute Klangobjekte
+tagline: und Klangobjekte
 permalink: /objekte/
 images:
 
@@ -25,22 +25,23 @@ images:
 
 {% include p5js_libs.html 
   %}
-  
-  <!--- <script src="{{ site.baseurl }}{% link assets/js/p5_pinkNoise.js %}"> </script> -->
-  
-  <script src="{{ site.baseurl }}{% link assets/js/p5_pinkNoise_vObjekte.js %}"> </script> 
+    
+  <script src="{{ site.baseurl }}{% link assets/js/p5_pinkNoise.js %}"> </script> 
 
 <ul class="gallery">
   {% for image in page.images %}
      <li>
       <a href="{{ image.link }}">
-        <img src="{{ image.image_path }}" alt="{{ image.title}}" width="33%" height="160" />
+        <img src="{{ image.image_path }}" alt="{{ image.title}}" width="33%" height="33%" />
       </a>
       </li>
   {% endfor %}
     
+   <!--
+        
      <li>
 
+     
 {% include youtube.html youtube_id = "qEHy6If8qaQ"  description = "»The Love Test Machine« Transit, Transmediale, CTM Vorspiele, Berlin.
 Collaboration with the UIX Designer Esther Rizo." %}
       </li>
@@ -51,6 +52,7 @@ Collaboration with the UIX Designer Esther Rizo." %}
 
 </li>
 
+      -->
 
 
 
