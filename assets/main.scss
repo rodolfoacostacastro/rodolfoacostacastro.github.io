@@ -9,16 +9,15 @@
 ul.gallery {
   list-style-type: none; 
   padding-left: 0;
+  overflow: hidden;
+
   
 }
- 
- 
- 
+  
 li img {
   float: left;
   margin: 0px;
   border: 1px solid #fff;
-
 }
  
 li img:hover {
@@ -27,20 +26,17 @@ li img:hover {
   filter: blur(1px);
 }
 
-
-
-li.youtube-wrapper {
+.youtube-wrapper {
   position: relative;
-  width: 100%;
-  height: 0;
   padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
 }
 
-li.youtube-wrapper iframe {
+.youtube-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  border: 0;
 }
