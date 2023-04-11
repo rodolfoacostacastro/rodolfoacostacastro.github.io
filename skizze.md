@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Skizze
-permalink: /skizze/
+title: Sketches
+permalink: /sketches/
 tagline: "Humanity is overrated."
 category: "skizze"
 ---
