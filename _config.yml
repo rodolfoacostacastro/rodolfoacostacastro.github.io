@@ -23,7 +23,7 @@ email: acosta.castro.rodolfo@gmail.com
 
 
 description: >- # this means to ignore newlines until "baseurl:"
-  una página de exploración personal, mandala digítal y techno-skepsis. 
+  una página de exploración DIY, mandala digítal y techno-skepsis. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: rodolfo_acosta_castro 

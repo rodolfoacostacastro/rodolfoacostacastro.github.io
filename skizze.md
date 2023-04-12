@@ -2,14 +2,13 @@
 layout: page
 title: Sketches
 permalink: /sketches/
-tagline: "Humanity is overrated."
+tagline: "some code weirdness"
 category: "skizze"
 ---
  
 {% include p5js_libs.html 
 %}
 
-<!--- <script src="{{ site.baseurl }}{% link assets/js/p5_pinkNoise.js %}"> </script> -->
 
 <script src="{{ site.baseurl }}{% link assets/js/p5_bubbles_sketch_small.js %}"> </script> 
 
@@ -18,16 +17,23 @@ category: "skizze"
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <br>
 
+<p> 
 
 
-_Hola Rodolfito: Esto sí que lo puedo cambiar You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.
 
+</p>
 
+[Lorem_ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum)
 
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 <p> 
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+</p>
+
+<p> 
+
 {% include image.html file="pollo.png" %} {% include image.html file="pollo.png"  %} {% include image.html file="pollo.png"  %} </p>
 
 <p> 
@@ -38,11 +44,11 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
+def print_hi(YourName)
+  puts "Hi, #{YourName}"
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+print_hi('againYourName')
+#=> prints 'Hola, buenos días, againYourPersonalName' to STDOUT.
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
