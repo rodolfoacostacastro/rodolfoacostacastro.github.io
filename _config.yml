@@ -51,6 +51,7 @@ markdown: kramdown
 # this and add the path to the pages in order as they should show up
 header_pages:
 #- edibleInterfaces.md
+- theater.md
 - Objekte.html 
 - diy_labor.html
 - skizze.md
