@@ -19,12 +19,6 @@ Interactive sound-performace
 Supported by Fonds Darstellende Künste.
 With Karen Dohr, Lena Böckmann, Maria Huber and Rodolfo Acosta Castro. Video coming soon ... 
 
-# **BATS** 
-Interactive outdoor Performance. 
-Supported by Fonds Darstellende Künste.
-With Anton Krause, Tomás Montes, Lena 
-Bökmann and Rodolfo Acosta Castro. Video coming soon ... 
-
 # 2022
 
 # **Essbare Interfaces**
